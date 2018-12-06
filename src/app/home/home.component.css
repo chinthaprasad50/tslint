@@ -1,0 +1,96 @@
+.navheader{
+color: white;
+}
+
+.panel-heading {
+    padding:0px;
+    border-bottom: 0px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+}
+.panel {
+    margin-bottom: 0px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border: 0px solid transparent;
+}
+
+
+.panel-body {
+    padding: 4px;
+}
+/* .container-fluid {
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.topnav {
+    overflow: hidden;
+    background-color:#155f57;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 2px;
+    border: none;
+    margin: 2px;
+/*     margin-right: 16px; */
+    font-size: 17px;
+   /*  background-color: #155f57; */
+     border: 1px solid  #155f57;
+    border-radius: 3px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.menudiv {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+  .vl {
+    border-left: 1px solid #6c950f;
+    height: 194px;
+    position: absolute;
+    left: 39%;
+    margin-left: 74px;
+    margin-top: 18px;
+    top: 0;
+}
+
+
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+#fleet_hover:hover, #health_hover:hover{
+    background-color:grey;
+}
+
+

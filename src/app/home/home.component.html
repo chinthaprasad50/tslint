@@ -1,0 +1,106 @@
+<div class="container-fluid" style="padding: 0px">
+  <div>
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0px;border-radius: 0px;border-color:#267872">
+      <div class="container-fluid" style="background-color: #267872;">
+        <div class="navbar-header">
+
+          <a class="navbar-brand navheader" href="#">Client Logo</a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="navheader"><a href="#" style="color:white"><span class="glyphicon glyphicon-user navheader"></span>
+              User Name</a></li>
+          <li><button type="button" class="btn btn-primary btn-xs" style="margin: 14px; background-color:#267872;border: 0px;">Log
+              Out</button></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="topnav">
+    <i class="fa fa-bars" aria-hidden="true" style="font-size:30px;color:white; margin-left:8px;padding: 4px"></i>
+    <input type="text" placeholder="   Search..">
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-body" style="text-align: right; background-color:#34577d"><strong style="color:white;">INDUSTRIES</strong></div>
+  </div>
+
+  <div class="col-md-12 padding:0px">
+    <div class="row">
+      
+      <div class="col-md-2"(click)="redirect()" *ngIf='!show' style="margin-top:13px">
+          
+            <img src="../../assets/HospitalIcon.png" class="img-center img-responsive">
+          <p style="text-align: center; color:#267872">Fleet Management</p>
+        </div>
+
+        <div class="col-md-2" *ngIf='show'>
+           
+          <img src="../../assets/fleet_Image.png" class="img-center img-responsive">
+        <p style="text-align: center; color:#267872"></p>
+      
+       
+       </div>
+      
+        <div class="col-md-2" (click)="redirectHealth()" *ngIf='!showHealth' style="margin-top:13px">  
+          <img src="../../assets/HospitalIcon.png" class="img-center img-responsive">
+        <p style="text-align: center;color:#267872 ">Health</p>
+       </div>
+   
+
+
+     <div class="col-md-2" *ngIf='showHealth'>  
+      <img src="../../assets/health_Image.png" class="img-center img-responsive">
+        <p style="text-align: center;color:#267872"></p>
+
+
+      </div>
+
+
+      <div class="col-md-2" (click)="redirectManufacturing()" *ngIf='!showManufacturing' style="margin-top:13px"> 
+        <img src="../../assets/truck.png" class="img-center img-responsive">
+        <p style="text-align: center;color:#267872">Manufacturing</p>
+
+      </div>
+      <div class="col-md-2" *ngIf='showManufacturing'>  
+        <img src="../../assets/manufacturing_Image.png" class="img-center img-responsive">
+          <p style="text-align: center;color:#267872"></p>
+  
+  
+        </div>
+
+
+      <div class="col-md-2" (click)="redirectTextile()" *ngIf='!showTextile' style="margin-top:13px">
+        <img src="../../assets/truck.png" class="img-center img-responsive">
+        <p style="text-align: center;color:#267872">Textile</p>
+
+      </div>
+      <div class="col-md-2" *ngIf='showTextile'>  
+        <img src="../../assets/textile_Image.png" class="img-center img-responsive">
+          <p style="text-align: center;color:#267872"></p>
+  
+  
+        </div>
+
+
+
+      <div class="col-md-2" (click)="redirectEnergy()" *ngIf='!showEnergy' style="margin-top:13px">
+        <img src="../../assets/truck.png" class="img-center img-responsive">
+        <p style="text-align: center;color:#267872">Energy</p>
+
+      </div>
+      <div class="col-md-2" *ngIf='showEnergy'>  
+        <img src="../../assets/energy_Image.png" class="img-center img-responsive">
+          <p style="text-align: center;color:#267872"></p>
+  
+  
+        </div>
+     
+     
+    </div>
+  </div>
+
+
+</div>
